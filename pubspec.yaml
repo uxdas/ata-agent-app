@@ -1,0 +1,50 @@
+name: agent_pro
+description: "A new Flutter project."
+publish_to: 'none'
+
+version: 1.0.0+1
+
+environment:
+  sdk: '>=3.0.0 <4.0.0'
+
+dependencies:
+  url_launcher: ^6.2.4
+  hive: ^2.2.3
+  hive_flutter: ^1.1.0
+
+  uuid: ^4.0.0
+  fl_chart: ^0.64.0
+  flutter:
+    sdk: flutter
+
+  # 🔌 HTTP + Хранение токена
+  dio: ^5.4.0
+  shared_preferences: ^2.2.2
+  flutter_secure_storage: ^9.0.0
+
+  # ⚙️ State management & routing (по желанию)
+  flutter_riverpod: ^2.5.0
+  go_router: ^13.0.1
+
+  # 🧊 Модели / генерация
+  freezed_annotation: ^2.4.1
+  json_annotation: ^4.8.1
+
+dev_dependencies:
+
+  hive_generator: ^2.0.1
+
+
+
+  flutter_test:
+    sdk: flutter
+
+  build_runner: ^2.4.8
+  freezed: ^2.4.6
+  json_serializable: ^6.7.1
+
+flutter:
+  uses-material-design: true
+
+  assets:
+    - assets/avatar.png
